@@ -1,0 +1,19 @@
+// assets/scss/bootstrap-custom.scss
+
+// 1. Optional: Override Bootstrap variables first
+$primary: #42b883; // Change primary color to Vue green
+$enable-responsive-font-size: true; // Enable responsive font sizes
+@import "bootstrap/scss/functions";
+@import "bootstrap/scss/variables";
+@import "bootstrap/scss/mixins";
+@import "bootstrap/scss/root";
+@import "bootstrap/scss/reboot";
+@import "bootstrap/scss/type";
+@import "bootstrap/scss/images";
+@import "bootstrap/scss/containers";
+@import "bootstrap/scss/grid";
+@import "bootstrap/scss/tables";
+@import "bootstrap/scss/forms";
+@import "bootstrap/scss/buttons";
+@import "bootstrap/scss/utilities"; // Essential!
+@import "bootstrap/scss/utilities/api";

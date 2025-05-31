@@ -1,0 +1,41 @@
+
+// 1. Define global variables (optional, can be in a separate file like _variables.scss)
+$primary-color: #42b883;
+$text-color: #333;
+$font-stack: 'Arial', sans-serif;
+
+// 2. CSS Reset (example, you might use normalize.css instead)
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+// 3. Base styles
+body {
+  font-family: $font-stack;
+  color: $text-color;
+  line-height: 1.6;
+  background-color: #f0f2f5;
+}
+
+// 4. Global utility classes
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+
+
+}
